@@ -18,7 +18,7 @@ namespace PlatformService.Data
         /// Gets all platform entities from the repository.
         /// </summary>
         /// <returns>An enumerable collection of platform entities.</returns>
-        IEnumerable<Platform> GetAll();
+        IEnumerable<Platform> GetAllPlatform();
         
         /// <summary>
         /// Gets a platform entity by its identifier.

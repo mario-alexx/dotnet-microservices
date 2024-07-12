@@ -30,7 +30,7 @@ namespace PlatformService.Data
            
         
         /// <inheritdoc />
-        public IEnumerable<Platform> GetAll() => 
+        public IEnumerable<Platform> GetAllPlatform() => 
             _context.Platforms.ToList();
 
         /// <inheritdoc />
