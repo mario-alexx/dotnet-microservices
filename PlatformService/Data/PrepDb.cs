@@ -29,7 +29,7 @@ namespace PlatformService.Data
         /// <param name="context">The database context used to interact with the database.</param>
         private static void SeedData(AppDbContext context) 
         {
-            if(context.Platforms.Any()) 
+            if(!context.Platforms.Any()) 
             {
                 Console.WriteLine("--> Seeding Data...");
 
