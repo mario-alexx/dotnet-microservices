@@ -6,7 +6,7 @@ namespace CommandsService.Data
     /// <summary>
     /// Defines the contract for a service that manages commands and platforms.
     /// </summary>
-    public interface ICommandService
+    public interface ICommandRepo
     {
         /// <summary>
         /// Persists any changes made to the data store.

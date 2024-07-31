@@ -8,7 +8,7 @@ namespace CommandsService.Data
     /// <summary>
     /// Provides implementation for the <see cref="ICommandService"/> to manage commands and platforms.
     /// </summary>
-    public class CommandRepo : ICommandService
+    public class CommandRepo : ICommandRepo
     {
         private readonly AppDbContext _context;
 
