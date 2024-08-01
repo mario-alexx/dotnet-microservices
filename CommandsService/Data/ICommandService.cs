@@ -33,6 +33,13 @@ namespace CommandsService.Data
         /// <param name="PlatformId">The ID of the platform to check.</param>
         /// <returns>true if the platform exists; otherwise, false.</returns>
         bool PlatformExist(int PlatformId);
+        
+        /// <summary>
+        /// Checks if an external platform exists.
+        /// </summary>
+        /// <param name="externalPlatformId">The ID of the external platform to check.</param>
+        /// <returns>true if the external platform exists; otherwise, false.</returns>
+        bool ExternalPlatformExist(int externalPlatformId);
         #endregion
 
         #region Commands
