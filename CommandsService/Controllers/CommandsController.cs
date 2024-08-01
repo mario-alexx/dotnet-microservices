@@ -48,7 +48,7 @@ namespace CommandsService.Controllers
             return Ok(commandsDto);
         }
 
-         /// <summary>
+        /// <summary>
         /// Gets a specific command for a specific platform.
         /// </summary>
         /// <param name="platformId">The ID of the platform.</param>
